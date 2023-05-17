@@ -1,0 +1,117 @@
+
+body {
+  background-color: #202020;
+  color: #fff;
+  font-family: 'Fira Code', monospace;
+}
+header img {
+  transition: all 0.8s;
+}
+
+header img:hover {
+  transform: rotate(360deg);
+}
+main, header{
+  width: 800px;
+  margin: auto;
+}
+div {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+li {
+  border-radius: 10px;
+  display: inline-block;
+}
+li p{
+  text-align: left;
+  padding: 10px;
+  max-height: 80px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+.informaçoes{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.card {
+  width: 186px;
+  height: 320px;
+  font-size: 14px;
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+  background-color: #2f2f2f;
+}
+
+.card:hover {
+  background-color: #fff04e;
+  color: #000;
+  transform: scale(1.05);
+  cursor: default;
+}
+
+.gif {
+  padding: 16px;
+  width: 80px;
+  height: 80px;
+}
+
+.tipos {
+  gap: 5px;
+}
+
+.tipos li {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+.grama {
+  background-color: #28a528;
+}
+
+.veneno {
+  background-color: #7e007e;
+}
+
+.agua {
+  background-color: #00aaff;
+}
+
+.fogo {
+  background-color: #ff920e;
+}
+.voador {
+  background-color: #A98FF3;
+}
+footer p{
+  text-align: center;
+  font-size: 12px;
+  line-height: 0.5;
+}
+footer div{
+  padding-top: 10px;
+}
